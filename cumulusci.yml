@@ -13,7 +13,7 @@ project:
 
 ### Tasks ######################################################################
 tasks:
-    remove_layout_related_content_items_event:
+    layout_event_remove_related_content_items:
         class_path: tasks.layout_metadata_transform.Remove
         options:
             element_name: "relatedContent"
