@@ -1,0 +1,44 @@
+{
+  "orgName": "BRIOLabs-Litify-Issue-Tracker - Dev Org",
+  "edition": "Enterprise",
+  "features": ["DevOpsCenter"],
+  "settings": {
+    "devHubSettings": {
+      "enableDevOpsCenterGA": true
+    },  
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "emailAdministrationSettings": {
+        "enableEnhancedEmailEnabled": true
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "userManagementSettings": {
+      "enableNewProfileUI": true
+    },
+    "securitySettings": {
+      "enableAdminLoginAsAnyUser": true,
+      "sessionSettings": {
+        "forceRelogin": false,
+        "sessionTimeout": "TwelveHours"
+      },
+      "networkAccess": {
+      }
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench": true
+    },
+    "knowledgeSettings": {
+      "enableKnowledge": true,
+      "enableLightningKnowledge": true
+    },
+    "apexSettings": {
+      "enableCompileOnDeploy": true
+    }
+  }
+}

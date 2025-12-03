@@ -1,0 +1,31 @@
+{
+  "orgName": "BRIOLabs-Litify-Issue-Tracker - Feature Test Org",
+  "edition": "Developer",
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "emailAdministrationSettings": {
+        "enableEnhancedEmailEnabled": true
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true
+    },    
+    "userManagementSettings": {
+      "enableNewProfileUI": true
+    },
+    "securitySettings": {
+      "enableAdminLoginAsAnyUser": true,
+      "sessionSettings": {
+        "forceRelogin": false,
+        "sessionTimeout": "TwelveHours"
+      }
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench": true
+    }
+  }
+}

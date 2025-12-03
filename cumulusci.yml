@@ -1,0 +1,20 @@
+minimum_cumulusci_version: '3.78.0'
+project:
+  name: CCI Utitlies
+  package:
+      name: CCI Utitlies
+      api_version: '55.0'
+  git:
+      default_branch: 'main'
+      prefix_feature: 'feature/'
+      prefix_beta: 'beta/'
+      prefix_release: 'release/'
+  source_format: sfdx
+
+### Tasks ######################################################################
+tasks:
+    remove_layout_related_content_items_event:
+        class_path: tasks.layout_metadata_transform.Remove
+        options:
+            element_name: "relatedContent"
+            api_names: "Event-Event Layout"
