@@ -38,10 +38,10 @@ class Remove(MetadataSingleEntityTransformTask):
             print("No element found with name " + element_name + ".")
         else:
             print("Element Found");
-            print(element.tostring());
+            #print(element.tostring());
             metadata.remove(element);
                 
-        print(metadata.tostring())
+        #print(metadata.tostring())
         ## Always return the modified `MetadataElement` if deployment is desired.
         ## To not deploy this element, return `None`.
 
