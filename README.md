@@ -25,4 +25,11 @@ flows:
 
 #### Remove Metadata from the Event Layout
 This task removes elements from the layout metdata item.  The task is configured to remove elements with the name "relatedContent" from the Event Layout. 
-
+EG: 
+```yml
+flows:
+    dev_org:
+        steps:
+            0.1:
+                task: brio:layout_event_remove_related_content_items
+```
